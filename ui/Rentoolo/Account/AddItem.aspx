@@ -27,6 +27,9 @@
                     $("#my-dropzone").append($('<input type="hidden" name="AdvertPhotos" ' + 'value="' + filaName + '">'));
                 }
             });
+
+            $('.mdb-select').materialSelect();
+
         });
     </script>
 </asp:Content>
@@ -40,7 +43,15 @@
                 <span>Категория</span>
             </div>
             <div class="additem-right additem__way" cid="1001">
-                <a href="#">Для бизнеса / Готовый бизнес / Другое</a>
+                <select class="mdb-select md-form" searchable="Выберите категорию..">
+                    <option value="" disabled selected>Выберите категорию</option>
+                    <option value="1">USA</option>
+                    <option value="2">Germany</option>
+                    <option value="3">France</option>
+                    <option value="3">Poland</option>
+                    <option value="3">Japan</option>
+                </select>
+
                 <input type="hidden" id="category_hidden" value="1001" runat="server" />
             </div>
         </div>
