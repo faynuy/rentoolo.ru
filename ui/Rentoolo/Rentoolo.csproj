@@ -524,6 +524,7 @@
     <Content Include="Test\Varkentin.aspx" />
     <Content Include="ChatFront\ChatTest2.html" />
     <Content Include="Test\VueTest.aspx" />
+    <Content Include="Test\faynuy.aspx" />
     <Content Include="TokensCost.aspx" />
     <Content Include="TokensOperations.aspx" />
     <Content Include="towardsbackwards\NewsTowardsbackwards.aspx" />
@@ -2126,6 +2127,13 @@
     </Compile>
     <Compile Include="Test\VueTest.aspx.designer.cs">
       <DependentUpon>VueTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\faynuy.aspx.cs">
+      <DependentUpon>faynuy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\faynuy.aspx.designer.cs">
+      <DependentUpon>faynuy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tokens.aspx.cs">
       <DependentUpon>Tokens.aspx</DependentUpon>
